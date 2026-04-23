@@ -115,8 +115,13 @@
         <label for="documento">Anexar documento</label>
         <input type="file" id="documento" name="documento" accept=".pdf,.doc,.docx,.txt">
 
-        <button type="button">Enviar denúncia</button>
+        <button type="button" id="btnEnviar">Enviar denúncia</button>
       </form>
+
+      <div id="protocoloBox" style="display: none; margin-top: 20px; padding: 15px; background-color: #eef4fb; border-radius: 8px;">
+        <h3>Protocolo gerado</h3>
+        <p id="numeroProtocolo"></p>
+      </div>
     </section>
   </main>
 
