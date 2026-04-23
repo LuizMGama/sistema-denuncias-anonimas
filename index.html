@@ -123,6 +123,22 @@
         <p id="numeroProtocolo"></p>
       </div>
     </section>
+
+    <section class="formulario">
+      <h2>Acompanhar denúncia</h2>
+      <form>
+        <label for="protocoloConsulta">Número do protocolo</label>
+        <input type="text" id="protocoloConsulta" name="protocoloConsulta" placeholder="Ex.: DEN-123456">
+
+        <button type="button" id="btnConsultar">Consultar status</button>
+      </form>
+
+      <div id="statusBox" style="display: none; margin-top: 20px; padding: 15px; background-color: #eef4fb; border-radius: 8px;">
+        <h3>Status da denúncia</h3>
+        <p id="statusProtocolo"></p>
+        <p id="statusAtual"></p>
+      </div>
+    </section>
   </main>
 
   <footer>
