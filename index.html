@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Denúncias Anônimas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Sistema de Denúncias Anônimas</h1>
+      <p>
+        Envie denúncias de forma segura, organizada e responsável, sem necessidade de identificação.
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>Categorias de denúncia</h2>
+      <p>Selecione a categoria que melhor representa a situação denunciada.</p>
+    </section>
+
+    <section class="categorias-grid">
+      <article class="bloco">
+        <h3>A) Segurança e Violência</h3>
+        <ul>
+          <li>Violência contra a mulher</li>
+          <li>Violência contra crianças</li>
+          <li>Violência contra idosos</li>
+          <li>Furto/Roubo</li>
+          <li>Drogas</li>
+          <li>Atividade suspeita</li>
+        </ul>
+      </article>
+
+      <article class="bloco">
+        <h3>B) Direitos e Conduta</h3>
+        <ul>
+          <li>Assédio moral/sexual</li>
+          <li>Bullying/Cyberbullying</li>
+          <li>Discriminação</li>
+          <li>Direitos humanos</li>
+          <li>Denúncia institucional</li>
+        </ul>
+      </article>
+
+      <article class="bloco">
+        <h3>C) Meio Ambiente e Bem-Estar</h3>
+        <ul>
+          <li>Maus-tratos a animais</li>
+          <li>Crimes ambientais</li>
+          <li>Perturbação do sossego</li>
+          <li>Situações de risco</li>
+        </ul>
+      </article>
+
+      <article class="bloco">
+        <h3>D) Cidade e Serviços</h3>
+        <ul>
+          <li>Infraestrutura urbana</li>
+          <li>Serviços públicos</li>
+          <li>Transporte e trânsito</li>
+          <li>Irregularidades escolares</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="formulario">
+      <h2>Registrar denúncia</h2>
+      <form>
+        <label for="categoria">Categoria</label>
+        <select id="categoria" name="categoria">
+          <option>Selecione uma categoria</option>
+          <option>Violência contra a mulher</option>
+          <option>Violência contra crianças</option>
+          <option>Violência contra idosos</option>
+          <option>Furto/Roubo</option>
+          <option>Drogas</option>
+          <option>Atividade suspeita</option>
+          <option>Assédio moral/sexual</option>
+          <option>Bullying/Cyberbullying</option>
+          <option>Discriminação</option>
+          <option>Direitos humanos</option>
+          <option>Denúncia institucional</option>
+          <option>Maus-tratos a animais</option>
+          <option>Crimes ambientais</option>
+          <option>Perturbação do sossego</option>
+          <option>Situações de risco</option>
+          <option>Infraestrutura urbana</option>
+          <option>Serviços públicos</option>
+          <option>Transporte e trânsito</option>
+          <option>Irregularidades escolares</option>
+        </select>
+
+        <label for="descricao">Descrição da denúncia</label>
+        <textarea id="descricao" name="descricao" rows="6" placeholder="Descreva a situação com clareza"></textarea>
+
+        <button type="button">Enviar denúncia</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto acadêmico de Engenharia de Software III</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
